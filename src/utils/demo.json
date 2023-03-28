@@ -1,0 +1,315 @@
+{
+  "success": true,
+  "message": "Survey fetched successfully",
+  "fetchedSurvey": [
+    {
+      "_id": "6348867e90e695fe6bd1613a",
+      "surveyName": "Big Five",
+      "surveyId": "89a638bd-8a3e-4954-ba90-993c1e795cab",
+      "surveyType": "false",
+      "ccReward": 100,
+      "usdReward": 0,
+      "duration": 10,
+      "description": "Big five is the most commonly used model of personality assessment. Take the survey to learn more about five factors describing your personality.",
+      "bountyFrequency": 2,
+      "questions": [
+        {
+          "type": 3,
+          "question": "I am the life of the party.",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I feel little concern for others.",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I am always prepared.",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I get stressed out easily.",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I have a rich vocabulary.",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I don't talk a lot.",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I leave my belongings around.",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I am interested in people",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I am relaxed most of the time.",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I have difficulty understanding abstract ideas.",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I feel comfortable around other people",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I insult people",
+          "answers": [
+            { "1": "Disagree" },
+            { "2": " Slightly Disagree" },
+            { "3": "Neutral" },
+            { "4": "Slightly agree" },
+            { "5": "Agree" }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "63488760c9eb73e022f8d8e3",
+      "surveyName": "Hexaco",
+      "surveyId": "cadc66ce-b86c-4785-bb71-109abdce17fb",
+      "surveyType": "false",
+      "ccReward": 100,
+      "usdReward": 0,
+      "duration": 10,
+      "description": "Hexaco is a survey to assess the six major dimensions of your personality.",
+      "bountyFrequency": 2,
+      "questions": [
+        {
+          "type": 3,
+          "question": "I would be quite bored by a visit to an art gallery.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I plan ahead and organize things, to avoid scrambling at the last minute.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I rarely hold a grudge, even against people who have badly wronged me.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I feel reasonably satisfied with myself overall.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I would feel afraid if I had to travel in bad weather conditions.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I wouldn't use flattery to get a raise or promotion at work, even if I thought it would succeed.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I'm interested in learning about the history and politics of other countries.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I often push myself very hard when trying to achieve a goal.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "People sometimes tell me that I am too critical of others.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I rarely express my opinions in group meetings.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "I sometimes can't help worrying about little things.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        },
+        {
+          "type": 3,
+          "question": "If I knew that I could never get caught‚ I would be willing to steal a million dollars.",
+          "answers": [
+            { "1": "strongly disagree" },
+            { "2": "disagree" },
+            { "3": "neutral" },
+            { "4": "agree" },
+            { "5": "strongly agree" }
+          ]
+        }
+      ],
+      "__v": 0
+    }
+  ]
+}
+
+// {
+//     "surveyName": "test",
+// 		"surveyType": "0",
+// 		"ccReward": 1,
+// 		"usdReward": 5,
+// 		// "duration": 1,
+// 		"bountyFrequency": 0,
+// 		"questions": {
+// 			"type": 0,
+// 			"question": "test question! 6",
+// 			"answers": [
+// 				{"1": "option 1"},
+// 				{"2": "option 2"}
+// 			]
+// 		}
+// }
