@@ -12,7 +12,11 @@ const SurveyResponseSchema = new Schema({
     type: String,
     required: true,
   },
-  email: {
+  surveyName: {
+    type: String,
+    required: true,
+  },
+  userId: {
     type: String,
     required: true,
   },

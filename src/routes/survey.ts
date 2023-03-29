@@ -64,6 +64,7 @@ router.get('/getall', async (req: any, res) => {
   // 		message: "Unable to get survey, user not logged in" });
   // }
   const survey = await SurveyInfo.find({})
+
   if (survey) {
     return res.send({
       success: true,
@@ -105,9 +106,9 @@ router.get('/get/:surveyId', async (req: any, res) => {
 })
 
 router.post('/submit', async (req: any, res) => {
-  const { response, userId, surveyId } = req.body
+  const { response, userId, surveyId, surveyName } = req.body
 
-  if (!response || !userId || !surveyId) {
+  if (!response || !userId || !surveyId || !surveyName) {
     return res.send({
       success: false,
       message: 'Unable to submit survey, missing required fields',
@@ -153,6 +154,7 @@ router.post('/submit', async (req: any, res) => {
       response,
       userId,
       surveyId,
+      surveyName,
     })
     await userResponse.save()
     if (userResponse) {
@@ -173,10 +175,10 @@ router.post('/submit', async (req: any, res) => {
 })
 
 // get specific users survey response
-router.get('/getresponse/:email', async (req: any, res) => {
-  const { email } = req.params
+router.get('/getresponse/:userId', async (req: any, res) => {
+  const { userId } = req.params
 
-  if (!email) {
+  if (!userId) {
     return res.send({
       success: false,
       message: 'Unable to get survey, missing required fields',
@@ -184,7 +186,7 @@ router.get('/getresponse/:email', async (req: any, res) => {
   }
 
   const survey = await SurveyResponse.find({
-    email,
+    userId: userId,
   })
 
   if (survey) {
